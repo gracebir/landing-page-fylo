@@ -10,7 +10,7 @@ const raleway = Raleway({
 
 function Header() {
   return (
-    <header className={`max-w-[110rem] mx-auto px-4 lg:px-0 py-6 lg:py-7 flex items-center justify-between ${raleway.className}`}>
+    <header className={`max-w-[102rem] mx-auto px-4 lg:px-0 py-6 lg:py-7 flex items-center justify-between ${raleway.className}`}>
       <Image className="w-24 lg:w-28 h-auto" width={120} height={100} src={logo} alt='logo'/>
       <nav className="text-white-color flex flex-row gap-4 lg:gap-12">
         {["Features", "Team", "Sign In"].map((item, key)=> (
