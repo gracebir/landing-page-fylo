@@ -9,7 +9,7 @@ const openSans = Open_Sans({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${openSans.className} bg-main-bg min-h-screen w-full`}>
+    <div className={`${openSans.className} bg-email-bg min-h-screen w-full text-white-color`}>
       <Component {...pageProps} />
     </div>
   )
