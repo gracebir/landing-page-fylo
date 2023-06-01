@@ -9,7 +9,7 @@ const openSans = Open_Sans({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={openSans.className}>
+    <div className={`${openSans.className} bg-main-bg`}>
       <Component {...pageProps} />
     </div>
   )
