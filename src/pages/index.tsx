@@ -1,17 +1,16 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import log from '../assets/bg-quotes.png'
+import Action from '@/components/Action'
 import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Services from '@/components/Services'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <>
    <Header/>
-   <main>
-
-   </main>
+   <Hero/>
+   <Action/>
+   <Services/>
    </>
   )
 }

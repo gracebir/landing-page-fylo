@@ -16,6 +16,10 @@ module.exports = {
         "blue-color":"var(--color-blue)",
         "error-color":"var(--color-light-red)",
         "white-color": "var(--color-white)"
+      },
+      backgroundImage:{
+        "action-bg": "url('../assets/bg-curvy-desktop.svg')" ,
+        "action-bg-mob": "url(../assets/bg-curvy-mobile.svg)" 
       }
     },
   },
