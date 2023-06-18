@@ -10,7 +10,9 @@ export default function Home() {
    <Header/>
    <Hero/>
    <Action/>
-   <Services/>
+   <main className="w-full bg-main-bg min-h-screen">
+    <Services/>
+   </main>
    </>
   )
 }
