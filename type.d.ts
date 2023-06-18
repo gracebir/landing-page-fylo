@@ -4,3 +4,9 @@ export type Tservice = {
     img: string
     desc: string
 }
+
+export type Ttestimonial = {
+    id?: number
+    fullname: string
+    img: StaticImageData
+}
