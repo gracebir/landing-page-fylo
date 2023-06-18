@@ -8,7 +8,7 @@ const Product = () => {
       <div className='lg:w-1/2 w-full lg:h-[600px] h-[300px]'>
         <Image className='w-full h-full object-contain' src={illustration} width={400} height={400} alt="" />
       </div>
-      <div className='flex flex-col lg:gap-6 gap-4 lg:items-start'>
+      <div className='flex flex-col lg:gap-6 gap-4 items-start'>
         <h3 className="lg:text-5xl text-lg lg:font-semibold font-bold lg:leading-[1.3]">Stay productive,<br className="hidden lg:block" /> wherever you are</h3>
         <p className='lg:text-lg text-sm font-normal'>Never let location be an issue when accessing your files. Fylo has you<br /> covered for all of your file storage needs.</p>
         <p className='lg:text-lg text-sm font-normal'> Securely share files and folders with friends, family and colleagues for live <br /> collaboration. No email attachments required.</p>
