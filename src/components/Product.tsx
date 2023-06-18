@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Product = () => {
   return (
-    <section className='container mx-auto px-4 lg:px-0 flex lg:flex-row flex-col lg:gap-10 gap-5 lg:items-center'>
+    <section className='container mx-auto px-4 lg:px-0 flex lg:flex-row flex-col lg:gap-16 gap-5 lg:items-center'>
       <div className='lg:w-1/2 w-full lg:h-[600px] h-[300px]'>
         <Image className='w-full h-full object-contain' src={illustration} width={400} height={400} alt="" />
       </div>
