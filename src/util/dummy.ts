@@ -1,8 +1,12 @@
-import { Tservice } from '../../type'
+import { Tservice, Ttestimonial } from '../../type'
 import anywhere from '../assets/icon-access-anywhere.svg'
 import anyfile from '../assets/icon-any-file.svg'
 import colab from '../assets/icon-collaboration.svg'
 import security from '../assets/icon-security.svg'
+
+import profile1 from '../assets/profile-1.jpg'
+import profile2 from '../assets/profile-2.jpg'
+import profile3 from '../assets/profile-3.jpg'
 
 export const services: Array<Tservice> = [
     {
@@ -30,5 +34,23 @@ export const services: Array<Tservice> = [
         title: "Store any type of file",
         desc: `Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.`,
         img: anyfile
+    }
+]
+
+export const userTestimonials: Array<Ttestimonial> = [
+    {
+        id: 1,
+        fullname: 'Satish Patel',
+        img: profile1
+    },
+    {
+        id: 2,
+        fullname: 'Bruce McKenzie',
+        img: profile2
+    },
+    {
+        id: 3,
+        fullname: 'Iva Boyd',
+        img: profile3
     }
 ]
