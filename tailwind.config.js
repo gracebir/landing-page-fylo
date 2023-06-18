@@ -19,7 +19,8 @@ module.exports = {
       },
       backgroundImage:{
         "action-bg": "url('../assets/bg-curvy-desktop.svg')" ,
-        "action-bg-mob": "url(../assets/bg-curvy-mobile.svg)" 
+        "action-bg-mob": "url(../assets/bg-curvy-mobile.svg)",
+        "testimonial": "url(../assets/bg-quotes.png)"
       }
     },
   },
