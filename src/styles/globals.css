@@ -14,3 +14,13 @@
     --color-white: hsl(0, 0%, 100%);
   }
 }
+
+.email-bg{
+  background: linear-gradient(
+    to top,
+    hsl(217, 28%, 15%) 0%,
+    hsl(217, 28%, 15%) 50%,
+    hsl(218, 28%, 13%) 50%,
+    hsl(218, 28%, 13%) 100%
+  );
+}
