@@ -24,7 +24,7 @@ function CallAction() {
             <form onSubmit={handleSubmit} className='grid lg:grid-cols-4 grid-cols-1 gap-4 lg:items-start '>
                 <div className='w-full lg:col-span-3 text-start flex flex-col gap-2 col-span-1'>
                     <input name='email' type="email" value={values.email} onChange={handleChange} onBlur={handleBlur} placeholder='example@fylo.com' className='rounded-full text-footer-bg text-lg outline-none px-6 lg:py-4 py-3 w-full' />
-                    {touched.email && errors.email?.length! > 1 && (<span className='px-6 text-start font-bold text-sm text-error-color'>Please enter a valid email address</span>)}
+                    {touched.email && errors.email?.length! > 1 && (<span className='px-6 text-start font-bold lg:text-sm text-xs text-error-color'>Please enter a valid email address</span>)}
                 </div>
                 <button className='px-5 bg-cyan-color hover:bg-blue-color duration-200 font-semibold lg:py-4 py-3 col-span-1 rounded-full'>Get Started For Free</button>
             </form>
