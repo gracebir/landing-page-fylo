@@ -25,24 +25,24 @@ function Footer() {
                         <span>example@fylo.com</span>
                     </div>
                     <div className='flex flex-col gap-2'>
-                        <a className='text-sm lg:text-base' href="#">About Us</a>
-                        <a className='text-sm lg:text-base' href="#">Jobs</a>
-                        <a className='text-sm lg:text-base' href="#">Press</a>
-                        <a className='text-sm lg:text-base' href="#">Blog</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">About Us</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Jobs</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Press</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Blog</a>
                     </div>
                     <div className='flex flex-col gap-2'>
-                        <a className='text-sm lg:text-base' href="#">Contact Us</a>
-                        <a className='text-sm lg:text-base' href="#">Terms</a>
-                        <a className='text-sm lg:text-base' href="#">Privacy</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Contact Us</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Terms</a>
+                        <a className='text-sm hover:font-bold lg:text-base' href="#">Privacy</a>
                     </div>
                     <div className='flex gap-4'>
-                        <div className='border border-white w-10 h-10 flex justify-center items-center rounded-full'>
+                        <div className='border border-white hover:border-cyan-color cursor-pointer hover:bg-cyan-color duration-300 w-10 h-10 flex justify-center items-center rounded-full'>
                             <FaFacebookF />
                         </div>
-                        <div className='border border-white w-10 h-10 flex justify-center items-center rounded-full'>
+                        <div className='border border-white hover:border-cyan-color cursor-pointer hover:bg-cyan-color duration-300 w-10 h-10 flex justify-center items-center rounded-full'>
                             <FaTwitter />
                         </div>
-                        <div className='border border-white w-10 h-10 flex justify-center items-center rounded-full'>
+                        <div className='border border-white hover:border-cyan-color cursor-pointer hover:bg-cyan-color duration-300 w-10 h-10 flex justify-center items-center rounded-full'>
                             <FaInstagram />
                         </div>
                     </div>
