@@ -6,12 +6,12 @@ function CallAction() {
             <h1 className='text-2xl font-semibold lg:text-5xl lg:font-bold'>Get early access today</h1>
             <p className="text-base lg:text-xl text-gray-400">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
                 questions, our support team would be happy to help you.</p>
-            <div className='grid lg:grid-cols-4 grid-cols-1 gap-4 lg:items-center '>
+            <form className='grid lg:grid-cols-4 grid-cols-1 gap-4 lg:items-center '>
                 <div className='w-full border border-white rounded-full lg:col-span-3 col-span-1'>
                     <input placeholder='example@fylo.com' className='rounded-full text-footer-bg text-lg outline-none px-6 lg:py-4 py-3 h-full w-full' type="text" />
                 </div>
-                <button className='px-5 bg-cyan-color font-semibold lg:py-4 py-3 col-span-1 rounded-full'>Get Started For Free</button>
-            </div>
+                <button className='px-5 bg-cyan-color hover:bg-blue-color duration-200 font-semibold lg:py-4 py-3 col-span-1 rounded-full'>Get Started For Free</button>
+            </form>
         </div>
     )
 }
